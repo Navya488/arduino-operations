@@ -1,0 +1,21 @@
+void setup() {
+  // put your setup code here, to run once:
+Serial.begin(9600);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+int a,b,c,d,e,f,g;
+a=5;
+b=7;
+c=a+b;
+d=a-b;
+e=a*b;
+f=a/b;
+g=a%b;
+Serial.print(c);
+Serial.print(d);
+Serial.print(e);
+Serial.print(f);
+Serial.print(g);
+}
